@@ -1,0 +1,1346 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: calc(100vw/7.2);
+}
+body {
+  overflow: hidden;
+}
+img {
+  display: block;
+  pointer-events: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+.war {
+  overflow: hidden;
+  height: 100%;
+  background-image: url(../image/bg.jpg);
+  background-position: 0 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.war .show {
+  display: none;
+}
+.war .show > .text {
+  width: 5.5rem;
+  height: 2.3rem;
+  font-size: 0.28rem;
+  color: #fffcff;
+  position: absolute;
+  top: 1rem;
+  left: 1.05rem;
+}
+.war .show > .text > .left p:nth-of-type(2) {
+  margin-top: 0.3rem;
+}
+.war .show > .text > .left p:nth-of-type(2) > span {
+  font-size: 0.46rem;
+  font-weight: bolder;
+  margin-left: 0.1rem;
+}
+.war .show > .text > .left p:nth-of-type(3) {
+  margin-top: 0.65rem;
+  font-size: 0.23rem;
+}
+.war .show > .text > .right {
+  display: flex;
+  width: 2rem;
+  height: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #fffcff;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.war .show > .text > .right img {
+  width: 0.18rem;
+  height: 0.2rem;
+}
+.war .show > .star {
+  font-size: 0.22rem;
+  position: absolute;
+  top: 3.9rem;
+  left: 0;
+}
+.war .show > .star > .rote1 {
+  animation: rore1 3s linear infinite;
+}
+@keyframes rore1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.war .show > .star > .rote2 {
+  animation: rore1 3s linear infinite;
+}
+@keyframes rore1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.war .show > .star > .rote3 {
+  animation: rore1 3s linear infinite;
+}
+@keyframes rore1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.war .show > .star > .left {
+  position: absolute;
+  top: 1.9rem;
+  left: 0.43rem;
+}
+.war .show > .star > .left > .star1 {
+  width: 1.65rem;
+  height: 1.64rem;
+}
+.war .show > .star > .left > .star1 > img {
+  width: 100%;
+}
+.war .show > .star > .left > .gg1 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  left: 0.5rem;
+  top: -0.5rem;
+}
+.war .show > .star > .left > .gg1 img {
+  width: 100%;
+}
+.war .show > .star > .left p:nth-of-type(1) {
+  width: 1.8rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 1.02rem;
+  left: 0;
+  text-align: center;
+  line-height: 0.4rem;
+  border: 0.02rem solid #fffcff;
+  border-radius: 0.1rem;
+  color: #fffcff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.war .show > .star > .center {
+  position: absolute;
+  top: 0;
+  left: 2.57rem;
+  --animate-duration: 2000ms;
+}
+.war .show > .star > .center > .star2 {
+  width: 2.1rem;
+  height: 2.08rem;
+}
+.war .show > .star > .center > .star2 img {
+  width: 100%;
+}
+.war .show > .star > .center > .gg2 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  left: 0.65rem;
+  top: -0.6rem;
+}
+.war .show > .star > .center > .gg2 img {
+  width: 100%;
+}
+.war .show > .star > .center p:nth-of-type(1) {
+  width: 1.8rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 1.02rem;
+  left: 0;
+  text-align: center;
+  line-height: 0.4rem;
+  border: 0.02rem solid #fffcff;
+  border-radius: 0.1rem;
+  color: #fffcff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.war .show > .star > .right {
+  position: absolute;
+  top: 1.2rem;
+  left: 5.2rem;
+}
+.war .show > .star > .right > .star3 {
+  width: 1.82rem;
+  height: 1.82rem;
+}
+.war .show > .star > .right > .star3 img {
+  width: 100%;
+}
+.war .show > .star > .right > .gg3 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  top: -0.4rem;
+  left: 0.6rem;
+}
+.war .show > .star > .right > .gg3 img {
+  width: 100%;
+}
+.war .show > .star > .right p:nth-of-type(1) {
+  width: 1.8rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 1.02rem;
+  left: 0;
+  text-align: center;
+  line-height: 0.4rem;
+  border: 0.02rem solid #fffcff;
+  border-radius: 0.1rem;
+  color: #fffcff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.war .show > .share {
+  font-size: 0.24rem;
+  color: #fffcff;
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  height: 0.6rem;
+  display: flex;
+  align-items: center;
+}
+.war .show > .share > .left {
+  width: 1.8rem;
+  height: 0.6rem;
+  border: 1px solid #fffcff;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  left: 0.68rem;
+  top: 0;
+}
+.war .show > .share > .left img {
+  width: 0.18rem;
+  height: 0.2rem;
+}
+.war .show > .share > .right {
+  width: 1.8rem;
+  height: 0.6rem;
+  border: 1px solid #fffcff;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  right: 0.6rem;
+  top: 0;
+}
+.war .show > .share > .right img {
+  width: 0.18rem;
+  height: 0.2rem;
+}
+.war > .z01 {
+  width: 2rem;
+  height: 0.58rem;
+  position: absolute;
+  left: 2.6rem;
+  bottom: 0;
+  z-index: 100;
+}
+.war > .z01 > img {
+  width: 100%;
+}
+.war > .m1 {
+  width: 7.2rem;
+  height: 2.4rem;
+  position: absolute;
+  bottom: 0;
+  z-index: 35;
+}
+.war > .m1 img {
+  width: 100%;
+}
+.war > .m2 {
+  width: 7.2rem;
+  height: 5.74rem;
+  position: absolute;
+  bottom: 0.36rem;
+}
+.war > .m2 img {
+  width: 100%;
+}
+.war > .m3 {
+  width: 7.2rem;
+  height: 4.8rem;
+  position: absolute;
+  bottom: 3.6rem;
+}
+.war > .m3 img {
+  width: 100%;
+}
+.war > .m4 {
+  width: 7.2rem;
+  height: 1.31rem;
+  position: absolute;
+  bottom: 6.6rem;
+}
+.war > .m4 img {
+  width: 100%;
+}
+.war > .down {
+  display: block;
+  animation: down1 2s linear forwards;
+}
+@keyframes down1 {
+  0% {
+    transform: translateY(13rem);
+  }
+  100% {
+    transform: translateY(22rem);
+  }
+}
+.war > .dropp {
+  display: none;
+}
+.war > .dropp > .cada1 {
+  display: none;
+}
+.war > .dropp > .brow1 {
+  display: none;
+}
+.war > .dropp > .cada2 {
+  display: none;
+}
+.war > .dropp > .brow2 {
+  display: none;
+}
+.war > .dropp > .cada3 {
+  display: none;
+}
+.war > .dropp > .brow3 {
+  display: none;
+}
+.war > .dropp > .cada4 {
+  display: none;
+}
+.war > .dropp > .z02 {
+  z-index: 40;
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  left: 2.6016rem;
+  bottom: -3.183rem;
+  z-index: 44;
+  --animate-duration: 1000ms;
+  --animate-delay: 3s;
+}
+.war > .dropp > .z02 img {
+  width: 100%;
+}
+.war > .dropp > .z03 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  left: 2.111rem;
+  bottom: -2.8955rem;
+  z-index: 43;
+  --animate-duration: 1500ms;
+  --animate-delay: 3.5s;
+}
+.war > .dropp > .z03 img {
+  width: 100%;
+}
+.war > .dropp > .z04 {
+  width: 2rem;
+  height: 5.34rem;
+  position: absolute;
+  left: 1.62rem;
+  bottom: -3.34rem;
+  z-index: 42;
+  --animate-duration: 2000ms;
+  --animate-delay: 4s;
+}
+.war > .dropp > .z04 img {
+  width: 100%;
+}
+.war > .dropp > .z06 {
+  width: 1.76rem;
+  height: 3.02rem;
+  position: absolute;
+  left: 1.374rem;
+  bottom: -0.302rem;
+  z-index: 37;
+  --animate-duration: 2500ms;
+  --animate-delay: 4.5s;
+}
+.war > .dropp > .z06 img {
+  width: 100%;
+}
+.war > .dropp > .z07 {
+  width: 1.76rem;
+  height: 3.02rem;
+  position: absolute;
+  left: 0.135rem;
+  bottom: 0.415rem;
+  z-index: 36;
+  --animate-duration: 3000ms;
+  --animate-delay: 5s;
+}
+.war > .dropp > .z07 img {
+  width: 100%;
+}
+.war > .dropp > .z08 {
+  width: 1rem;
+  height: 4.21rem;
+  position: absolute;
+  left: 0.94rem;
+  bottom: -0.085rem;
+  z-index: 35;
+  --animate-duration: 3500ms;
+  --animate-delay: 5.5s;
+}
+.war > .dropp > .z08 img {
+  width: 100%;
+}
+.war > .dropp > .z09 {
+  width: 1rem;
+  height: 3.75rem;
+  position: absolute;
+  left: 1.44rem;
+  bottom: 0.685rem;
+  z-index: 34;
+  --animate-duration: 4000ms;
+  --animate-delay: 6s;
+}
+.war > .dropp > .z09 img {
+  width: 100%;
+}
+.war > .dropp > .z11 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  left: 0.93rem;
+  bottom: 1.42rem;
+  z-index: 33;
+}
+.war > .dropp > .z11 img {
+  width: 100%;
+}
+.war > .dropp > .z12 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  left: 1.6715rem;
+  bottom: 1.842rem;
+  z-index: 32;
+}
+.war > .dropp > .z12 img {
+  width: 100%;
+}
+.war > .dropp > .z13 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  left: 2.41rem;
+  bottom: 2.267rem;
+  z-index: 31;
+}
+.war > .dropp > .z13 img {
+  width: 100%;
+}
+.war > .dropp > .z14 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  left: 3.145rem;
+  bottom: 2.7rem;
+  z-index: 30;
+}
+.war > .dropp > .z14 img {
+  width: 100%;
+}
+.war > .dropp > .z15 {
+  width: 1rem;
+  height: 3.75rem;
+  position: absolute;
+  left: 3.9rem;
+  bottom: 2.68rem;
+  z-index: 29;
+}
+.war > .dropp > .z15 img {
+  width: 100%;
+}
+.war > .dropp > .z16 {
+  width: 1rem;
+  height: 1.45rem;
+  position: absolute;
+  left: 4.4rem;
+  bottom: 4.69rem;
+  z-index: 30;
+}
+.war > .dropp > .z16 img {
+  width: 100%;
+}
+.war > .dropp > .z17 {
+  width: 2rem;
+  height: 5.34rem;
+  position: absolute;
+  left: 3.87rem;
+  bottom: -0.01rem;
+  z-index: 30;
+}
+.war > .dropp > .z17 img {
+  width: 100%;
+}
+.war > .dropp > .z18 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  left: 4.37rem;
+  bottom: 0.436rem;
+  z-index: 31;
+}
+.war > .dropp > .z18 img {
+  width: 100%;
+}
+.war > .dropp > .z20 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  left: 4.86rem;
+  bottom: 0.148rem;
+  z-index: 32;
+}
+.war > .dropp > .z20 img {
+  width: 100%;
+}
+.war > .dropp > .z21 {
+  width: 1rem;
+  height: 3.75rem;
+  position: absolute;
+  left: 5.35rem;
+  bottom: 0.16rem;
+  z-index: 32;
+}
+.war > .dropp > .z21 img {
+  width: 100%;
+}
+.war > .dropp > .z22 {
+  width: 0.76rem;
+  height: 0.8rem;
+  position: absolute;
+  left: 5.1rem;
+  bottom: 2.82rem;
+  z-index: 32;
+}
+.war > .dropp > .z22 img {
+  width: 100%;
+}
+.war > .dropp > .z23 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  left: 4.35rem;
+  bottom: -0.27rem;
+  z-index: 32;
+}
+.war > .dropp > .z23 img {
+  width: 100%;
+}
+.war > .dropp > .z24 {
+  width: 1.26rem;
+  height: 3.02rem;
+  position: absolute;
+  left: 3.62rem;
+  bottom: 0.175rem;
+  z-index: 41;
+}
+.war > .dropp > .z24 img {
+  width: 100%;
+}
+.war > .dropp > .z26 {
+  width: 1rem;
+  height: 3.46rem;
+  position: absolute;
+  left: 0.43rem;
+  bottom: 1.84rem;
+  z-index: 11;
+}
+.war > .dropp > .z26 img {
+  width: 100%;
+}
+.war > .dropp > .z27 {
+  width: 1rem;
+  height: 3.46rem;
+  position: absolute;
+  left: 4.4rem;
+  bottom: 3.55rem;
+}
+.war > .dropp > .z27 img {
+  width: 100%;
+}
+.war > .dropp > .z28 {
+  width: 1.26rem;
+  height: 4.21rem;
+  position: absolute;
+  left: 5.84rem;
+  bottom: 0.27rem;
+  z-index: 9;
+}
+.war > .dropp > .z28 img {
+  width: 100%;
+}
+.war > .dropp > .z29 {
+  width: 0.68rem;
+  height: 0.66rem;
+  position: absolute;
+  left: 0.6rem;
+  bottom: 5.25rem;
+  z-index: 13;
+}
+.war > .dropp > .z29 img {
+  width: 100%;
+  animation: tran1 2.5s infinite;
+}
+@keyframes tran1 {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0.1rem);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(0.1rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.war > .dropp > .z30 {
+  width: 0.82rem;
+  height: 0.73rem;
+  position: absolute;
+  left: 4.5rem;
+  bottom: 6.86rem;
+}
+.war > .dropp > .z30 img {
+  width: 100%;
+  animation: tran2 2.5s infinite;
+}
+@keyframes tran2 {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0.1rem);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(0.1rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.war > .dropp > .z31 {
+  width: 0.6rem;
+  height: 0.84rem;
+  position: absolute;
+  left: 6.07rem;
+  bottom: 4.26rem;
+  z-index: 10;
+}
+.war > .dropp > .z31 img {
+  width: 100%;
+  animation: tran3 2.5s infinite;
+}
+@keyframes tran3 {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0.1rem);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(0.1rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.war > .dropp > .z32 {
+  width: 2.5rem;
+  height: 5.71rem;
+  position: absolute;
+  left: 1.1rem;
+  bottom: 1.98rem;
+  z-index: 1;
+  --animate-duration: 1500ms;
+}
+.war > .dropp > .z32 img {
+  width: 100%;
+}
+.war > .dropp > .z33 {
+  width: 1.5rem;
+  height: 6.34rem;
+  position: absolute;
+  left: 5.58rem;
+  bottom: 1.5rem;
+  z-index: 1;
+  --animate-duration: 2000ms;
+}
+.war > .dropp > .z33 img {
+  width: 100%;
+}
+.war > .dropp > .z34 {
+  width: 1rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 6.59rem;
+  bottom: -0.76rem;
+  z-index: 10;
+}
+.war > .dropp > .z34 img {
+  width: 100%;
+}
+.war > .dropp > .z35 {
+  overflow: hidden;
+  display: flex;
+  width: 1.63rem;
+  height: 4.61rem;
+  position: absolute;
+  left: 2.2rem;
+  bottom: 0.7rem;
+  z-index: 32;
+  --animate-duration: 2500ms;
+}
+.war > .dropp > .z35 img {
+  width: 100%;
+  animation: move1 1s step-end infinite;
+}
+@keyframes move1 {
+  0% {
+    transform: translateX(0);
+  }
+  33.3% {
+    transform: translateX(-1.63rem);
+  }
+  66.6% {
+    transform: translateX(-3.26rem);
+  }
+  100% {
+    transform: translateX(-4.89rem);
+  }
+}
+.war > .z25 {
+  display: none;
+  width: 1rem;
+  height: 5.27rem;
+  position: absolute;
+  left: 3.117rem;
+  bottom: -1.81rem;
+  z-index: 40;
+}
+.war > .z25 img {
+  width: 100%;
+}
+.war > .moveUp {
+  animation: moveup 2s linear forwards;
+  transform-style: preserve-3d;
+}
+@keyframes moveup {
+  0% {
+    transform: translate3d(0, 0rem, 0);
+  }
+  40% {
+    transform: translate3d(0, 0.3rem, 0);
+  }
+  100% {
+    transform: translate3d(0, -1rem, 0);
+  }
+}
+.war > .moveUp1 {
+  animation: moveup1 2s linear forwards;
+}
+@keyframes moveup1 {
+  0% {
+    transform: translateY(-3rem);
+  }
+  40% {
+    transform: translateY(-2.7rem);
+  }
+  100% {
+    transform: translateY(-4rem);
+  }
+}
+.war > .gz {
+  width: 0.7rem;
+  height: 1rem;
+  background-size: cover;
+  position: absolute;
+  left: 3.3rem;
+  bottom: 0.05rem;
+  z-index: 111;
+}
+.war > .gz > img {
+  width: 100%;
+}
+.war > .gz1 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  left: 3.3rem;
+  bottom: 0.05rem;
+  z-index: 111;
+  animation: gz1 6732ms linear forwards;
+}
+.war > .gz1 img {
+  width: 100%;
+}
+@keyframes gz1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  23.8% {
+    transform: translate(-1.45rem, -0.95rem);
+  }
+  40.3% {
+    transform: translate(-0.5rem, -1.55rem);
+  }
+  78.3% {
+    transform: translate(-2.65rem, -2.7rem);
+  }
+  100% {
+    transform: translate(-1.7rem, -4rem);
+  }
+}
+.war > .gz2 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  left: 3.3rem;
+  bottom: 0.05rem;
+  z-index: 111;
+  animation: gz2 3976ms linear forwards;
+}
+.war > .gz2 img {
+  width: 100%;
+}
+@keyframes gz2 {
+  0% {
+    transform: translate(-1.7rem, -4rem);
+  }
+  18% {
+    transform: translate(-2.2rem, -4.3rem);
+  }
+  100% {
+    transform: translate(0.75rem, -5.95rem);
+  }
+}
+.war > .gz3 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  left: 3.3rem;
+  bottom: 0.05rem;
+  z-index: 111;
+  animation: gz3 4109ms linear forwards;
+}
+.war > .gz3 img {
+  width: 100%;
+}
+@keyframes gz3 {
+  0% {
+    transform: translate(0.75rem, -5.95rem);
+  }
+  37.1% {
+    transform: translate(1.7rem, -4.8rem);
+  }
+  59.2% {
+    transform: translate(0.8rem, -4.2rem);
+  }
+  100% {
+    transform: translate(2.2rem, -3.4rem);
+  }
+}
+.war > .gz4 {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  left: 3.3rem;
+  bottom: 0.05rem;
+  z-index: 111;
+  animation: gz4 2810ms linear forwards;
+}
+.war > .gz4 img {
+  width: 100%;
+}
+@keyframes gz4 {
+  0% {
+    transform: translate(2.2rem, -3.4rem);
+  }
+  65% {
+    transform: translate(0.8rem, -2.3rem);
+  }
+  100% {
+    transform: translate(-0.1rem, -3rem);
+  }
+}
+.war > .gz8 {
+  display: none;
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  left: 3.3rem;
+  bottom: 0.05rem;
+  z-index: 111;
+}
+.war > .gz8 img {
+  width: 100%;
+}
+.war > .iris1 {
+  display: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 0.1rem solid #fff;
+  position: absolute;
+  left: 1.5rem;
+  bottom: 3.8rem;
+  z-index: 66;
+  animation: iris1 3s linear infinite;
+}
+@keyframes iris1 {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  50% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+}
+.war > .iris2 {
+  display: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 0.1rem solid #fff;
+  position: absolute;
+  left: 4rem;
+  bottom: 5.8rem;
+  z-index: 66;
+  animation: iris1 3s linear infinite;
+}
+@keyframes iris1 {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  50% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+}
+.war > .iris3 {
+  display: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 0.1rem solid #fff;
+  position: absolute;
+  left: 5.4rem;
+  bottom: 3.2rem;
+  z-index: 66;
+  animation: iris1 3s linear infinite;
+}
+@keyframes iris1 {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  50% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+}
+.war > .iris4 {
+  display: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 0.1rem solid #fff;
+  position: absolute;
+  left: 3.2rem;
+  bottom: 2.8rem;
+  z-index: 66;
+  animation: iris1 3s linear infinite;
+}
+@keyframes iris1 {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  50% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+}
+.war > .top-bg {
+  width: 7.2rem;
+  height: 4.65rem;
+  position: absolute;
+  top: 1rem;
+}
+.war > .top-bg img {
+  width: 100%;
+}
+.war > .txt1 {
+  width: 5rem;
+  height: 3rem;
+  font-size: 0.28rem;
+  box-sizing: border-box;
+  color: #fffeef;
+  position: absolute;
+  left: 1.1rem;
+  top: 1.8rem;
+  --animate-duration: 2000ms;
+}
+.war > .txt1 > .txt-bar1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+.war > .txt1 > .txt-bar1 img {
+  width: 4.24rem;
+  height: 1.28rem;
+}
+.war > .box {
+  display: none;
+}
+.war > .box > .ques {
+  color: #0a9389;
+  font-size: 0.3rem;
+  position: absolute;
+  bottom: 2.5rem;
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  --animate-duration: 2000ms;
+}
+.war > .box > .ques > .xf p:nth-of-type(2) {
+  margin-top: 0.2rem;
+}
+.war > .box > .ques > .topp1 img {
+  width: 0.64rem;
+  height: 0.33rem;
+}
+.war > .box > .ques > .topp1 > .jt1 {
+  animation: jt1 1s linear infinite;
+}
+@keyframes jt1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.war > .box > .ques > .topp1 > .jt2 {
+  animation: jt2 2s linear infinite;
+}
+@keyframes jt2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.war > .box > .ques > .topp1 > .jt3 {
+  animation: jt3 3s linear infinite;
+}
+@keyframes jt3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.war > .txt2 {
+  display: none;
+  width: 5rem;
+  height: 3rem;
+  font-size: 0.28rem;
+  box-sizing: border-box;
+  color: #fffeef;
+  position: absolute;
+  left: 1.1rem;
+  top: 1.8rem;
+  padding: 0 0.3rem;
+}
+.war > .txt2 > p:nth-child(1) {
+  font-size: 0.28rem;
+  font-weight: 400;
+}
+.war > .txt2 > p:nth-child(2) {
+  font-weight: 400;
+}
+.war > .txt2 > p:nth-child(3) {
+  font-size: 0.18rem;
+  text-align: right;
+  margin-top: 0.5rem;
+}
+.war > .txt3 {
+  display: none;
+  width: 5rem;
+  height: 3rem;
+  font-size: 0.28rem;
+  box-sizing: border-box;
+  color: #fffeef;
+  position: absolute;
+  left: 1.1rem;
+  top: 1.8rem;
+}
+.war > .txt3 > .txt-bar3 {
+  display: flex;
+  font-size: 0.26rem;
+  width: 4rem;
+  height: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.war > .txt3 > .txt-bar3 .left img {
+  width: 0.76rem;
+  height: 0.76rem;
+}
+.war > .txt3 > .txt-bar3 > .right {
+  font-weight: bolder;
+}
+.war > .txt3 > p:nth-of-type(1) {
+  font-size: 0.26rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.war > .txt4 {
+  display: none;
+  width: 5rem;
+  height: 3rem;
+  font-size: 0.28rem;
+  box-sizing: border-box;
+  color: #fffeef;
+  position: absolute;
+  left: 1.1rem;
+  top: 1.8rem;
+}
+.war > .txt4 > .txt-bar4 {
+  display: flex;
+  font-size: 0.26rem;
+  width: 3.3rem;
+  height: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.war > .txt4 > .txt-bar4 > .left img {
+  width: 0.76rem;
+  height: 0.76rem;
+}
+.war > .txt4 > .txt-bar4 > .right {
+  font-weight: bolder;
+}
+.war > .txt4 > p:nth-of-type(1) {
+  font-size: 0.26rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.war > .txt5 {
+  display: none;
+  width: 5rem;
+  height: 3rem;
+  font-size: 0.28rem;
+  box-sizing: border-box;
+  color: #fffeef;
+  position: absolute;
+  left: 1.1rem;
+  top: 1.8rem;
+}
+.war > .txt5 > .txt-bar5 {
+  display: flex;
+  font-size: 0.26rem;
+  width: 3.8rem;
+  height: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.war > .txt5 > .txt-bar5 > .left img {
+  width: 0.76rem;
+  height: 0.76rem;
+}
+.war > .txt5 > .txt-bar5 > .right {
+  font-weight: bolder;
+}
+.war > .txt5 > p:nth-of-type(1) {
+  margin: 0 auto;
+  width: 2rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.24rem;
+  text-align: center;
+  margin-top: 0.2rem;
+  font-weight: lighter;
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+}
+.war > .txt6 {
+  display: none;
+  width: 5rem;
+  height: 3rem;
+  font-size: 0.28rem;
+  box-sizing: border-box;
+  color: #fffeef;
+  position: absolute;
+  left: 1.1rem;
+  top: 1.8rem;
+  padding-left: 0.1rem;
+}
+.war > .txt6 > p:nth-of-type(1) {
+  font-size: 0.26rem;
+  margin-top: 0.05rem;
+  font-weight: bold;
+}
+.war > .txt6 > p:nth-of-type(2) {
+  font-size: 0.26rem;
+  margin-top: 0.05rem;
+  font-weight: bold;
+}
+.war > .txt6 > p:nth-of-type(3) {
+  font-size: 0.26rem;
+  margin-top: 0.05rem;
+  font-weight: bold;
+}
+.war > .txt6 > p:nth-of-type(4) {
+  font-size: 0.25rem;
+  margin-top: 0.25rem;
+  font-weight: lighter;
+}
+.war > .logo {
+  position: absolute;
+  z-index: 111;
+  right: 0.2rem;
+  bottom: 0.2rem;
+}
+.war > .logo img {
+  width: 1.64rem;
+  height: 0.5rem;
+}
+.rose {
+  animation: rose 3s linear forwards;
+}
+@keyframes rose {
+  0% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
